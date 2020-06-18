@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Scrin",
+    "slug": "Scrin",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash_1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff951"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
