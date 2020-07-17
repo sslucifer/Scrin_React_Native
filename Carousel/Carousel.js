@@ -40,7 +40,8 @@ const Carousel = ({ data }) => {
     setDataList(data);
     infiniteScroll(dataList);
   });
-
+  // console.log("This id Carosel.js");
+  // console.log(JSON.stringify(data));
   if (data && data.length) {
     return (
       <View>
@@ -82,7 +83,7 @@ const Carousel = ({ data }) => {
                   height: 10,
                   width: 10,
                   backgroundColor: "#595959",
-                  margin: 8,
+                  margin: 5,
                   borderRadius: 5,
                 }}
               />

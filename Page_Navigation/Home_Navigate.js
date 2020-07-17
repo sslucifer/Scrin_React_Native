@@ -12,7 +12,7 @@ import Home from "../Pages/Home";
 import LiveTv from "../Pages/LiveTv";
 import Video from "../Pages/Video";
 import Download from "../Pages/Download";
-import Settings from "../Pages/Settings";
+import Settings from "../Page_Navigation/Settings_Navigate";
 
 const TabNavigator = createMaterialBottomTabNavigator(
   {

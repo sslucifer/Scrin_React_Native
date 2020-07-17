@@ -9,7 +9,12 @@ export default class Download extends React.Component {
         <View style={styles.header}>
           <FontAwesome5 name="microphone" size={24} color="black" />
         </View>
-        <ScrollView style={styles.scrollview}>
+        <View
+          style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
+        >
+          <Text style={{ fontWeight: "bold", fontSize: 30 }}>Downloads</Text>
+        </View>
+        {/* <ScrollView style={styles.scrollview}>
           <View style={styles.caro}>
             <Text>Carousel_4</Text>
           </View>
@@ -35,7 +40,7 @@ export default class Download extends React.Component {
           <View style={styles.section_7}>
             <Text>Section 7</Text>
           </View>
-        </ScrollView>
+        </ScrollView> */}
       </View>
     );
   }
